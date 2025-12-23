@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Photo Book with Letter</title>
+  <link rel="stylesheet" href="photo book.css">
+</head>
+<body>
+
+<div class="book">
+  <div class="photo">
+    <img id="photo" src="https://i.imgur.com/flfJQkm.jpeg" alt="memory">
+  </div>
+
+  <div class="controls">
+    <button onclick="prevPhoto()">⬅</button>
+    <button onclick="nextPhoto()">➡</button>
+  </div>
+
+  <button id="openLetter" class="letter-button">📜 Open Letter</button>
+
+  <div id="letterOverlay" class="letter-overlay">
+    <div class="letter-content">
+      <h2>My Love,</h2>
+      <p>Remember our first date and all the moments we had at kkpt together at the pres? </p>
+      <p>December 23, 2025 at the photobooth sa taas don sa SM di ko alam ano name basta yon HAHAH. And it is a day I will never forget the day you accepted me as your boyfriend. From that moment, my heart has been yours completely.</p>
+      <p>Every smile, every playful tease, every little memory we make feels like magic to me. I love how we can talk for hours, how time flies with you, and how even small gestures make me feel butterflies. </p>
+      <p>This is just the beginning of our story. I promise to make you smile every day, to hold your hand through the hard times, your shoulder to sleep on, your person to bite on, and to cherish every memory we create together. </p>
+      <p>Forever yours,</p>
+      <p><strong>Your love love/lovey boyfriend Linthon</strong></p>
+      <button id="closeLetter" class="close-button">Close</button>
+    </div>
+  </div>
+</div>
+
+<script src="photo book.js"></script>
+</body>
+</html>
